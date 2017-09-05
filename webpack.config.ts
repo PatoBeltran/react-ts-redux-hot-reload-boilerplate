@@ -25,7 +25,7 @@ const config: webpack.Configuration = {
         new webpack.NamedModulesPlugin(),
         new webpack.HotModuleReplacementPlugin(),
         new HtmlWebpackPlugin({
-            title: 'Todo List App',
+            title: 'react-typescript-redux-boilerplate',
             chunksSortMode: 'dependency',
             template: path.resolve(__dirname, './src/index.ejs')
         }),
